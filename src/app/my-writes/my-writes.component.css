@@ -1,0 +1,120 @@
+/** GENERALES**/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+}
+
+main {
+  margin-top: 2rem;
+  width: 60%;
+  background: transparent;
+
+}
+
+section {
+  background-color: rgba(240, 248, 255, 0.4);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background-color: rgba(240, 248, 255, 0.6);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  color: black;
+  border-radius: 1rem;
+}
+
+article {
+  background: transparent;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 95%;
+  transition: 0.7s ease-out;
+  cursor: pointer;
+}
+
+article:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+}
+
+article:active {
+  transform: scale(0.97);
+  box-shadow: none;
+}
+
+
+
+a {
+  color: white;
+  cursor: pointer;
+}
+
+aside {
+  background-color: rgba(247, 4, 4, 0.6);
+  margin-bottom: 1.5rem;
+  /*  border-radius: 2rem; */
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 0rem 0rem 2rem 2rem;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  padding: 1rem;
+}
+
+a {
+  padding: 0.2rem;
+  transition: 0.3s ease-in;
+}
+
+a:hover {
+  letter-spacing: 0.3rem;
+}
+
+
+
+
+
+
+
+/** GENERALES-END **/
+
+.img-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -1;
+}
+
+/* .png {
+  width: 10px;
+  height: 10px;
+} */
+
+/** MEDIA QUERYS **/
+
+@media (max-width: 991px) {
+
+  main {
+    width: 95%;
+  }
+
+}
+
+@media (min-width:995px) {}

@@ -1,0 +1,48 @@
+/**navegador*/
+nav {
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.main-menu__list {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  padding: 10px;
+  box-shadow: 3px 4px crimson;
+  border-radius: 10px;
+}
+
+.main-menu__link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-shadow: #FC0 1px 0 10px;
+  transition: 0.3s ease-in;
+}
+
+.main-menu__link:hover {
+  color: aqua;
+  letter-spacing: 0.3rem;
+}
+
+@media(max-width:990px) {
+  nav {
+    font-size: 0.70rem;
+  }
+
+  .main-menu__link:hover {
+
+    letter-spacing: 1px;
+  }
+}
