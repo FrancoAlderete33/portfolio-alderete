@@ -4,5 +4,9 @@ h2 {
   color: rgba(255, 255, 255, 0.8);
   text-shadow: #FC0 1px 0 10px;
   font-family: 'Rubik Mono One', sans-serif;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+section {
+  font-family: 'Montserrat', 'arial';
 }

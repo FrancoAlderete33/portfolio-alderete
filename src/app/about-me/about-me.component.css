@@ -30,17 +30,34 @@ h2 {
   margin-top: 1rem;
 }
 
+
 section {
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-  font-weight: 400;
-  width: 55%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: rgba(240, 248, 255, 0.6);
   padding: 1rem;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  background-color: rgba(240, 248, 255, 0.7);
-  line-height: 1.5rem;
+  width: 65%;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  gap: 2rem;
+  color: black;
+  font-size: large;
+  line-height: 25px;
   border-radius: 1rem;
 }
+
+article {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+span {
+  transition: 0.3s ease;
+}
+
+span:hover {
+  transform: scale3d(1.1, 1.2, 1.2);
+}
+
 
 /**GENERALES-END**/
 
@@ -58,8 +75,8 @@ section {
 }
 
 .icons {
-  width: 125px;
-  height: 125px;
+  width: 120px;
+  height: 120px;
   cursor: pointer;
   border: none;
   transition: 0.3s ease;
@@ -70,7 +87,7 @@ section {
 .icons:hover {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   ;
-  transform: scale(1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .icons:active {
@@ -120,8 +137,10 @@ section {
 
 @media(max-width: 991px) {
   section {
-    width: 95%;
+    width: 99%;
+    font-size: medium;
   }
+
 
   h1 {
     width: 90%;
